@@ -1,0 +1,17 @@
+const { gql } = require('apollo-server')
+
+const productSchema = gql `
+    type Product {
+        id: ID!
+        title: String!
+        image: String!
+        price: Float!
+        details: String!
+    }
+
+    type Query {
+        products: [Product]
+    }
+`
+
+module.exports = productSchema
