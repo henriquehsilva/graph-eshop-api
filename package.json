@@ -1,0 +1,27 @@
+{
+  "name": "graph-eshop-api",
+  "version": "1.0.0",
+  "description": "API GraphQL for EShop",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.10.0",
+    "apollo-server": "^2.21.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "postgraphile": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henriquehsilva/graph-eshop-api.git"
+  },
+  "author": "Henrique Silva Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquehsilva/graph-eshop-api/issues"
+  },
+  "homepage": "https://github.com/henriquehsilva/graph-eshop-api#readme"
+}
